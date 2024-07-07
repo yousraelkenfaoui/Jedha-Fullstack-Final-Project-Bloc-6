@@ -10,4 +10,4 @@ RUN curl -fsSL https://get.deta.dev/cli.sh | sh
 RUN pip install boto3 pandas gunicorn streamlit sklearn matplotlib seaborn plotly
 COPY . /home/app
 
-CMD streamlit run --server.port $PORT app_project.py
+CMD streamlit run --server.port $PORT app_projet.py
